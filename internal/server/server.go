@@ -16,7 +16,7 @@ type Server struct {
 }
 
 func NewServer() *Server {
-	dbpool, err := pgxpool.Connect(context.Background(), "postgres://postgres:Googleapple123@localhost:5432/product_db")
+	dbpool, err := pgxpool.Connect(context.Background(), "postgres://postgres:mrrobot123@localhost:5432/product_db")
 	if err != nil {
 		panic(err)
 	}
